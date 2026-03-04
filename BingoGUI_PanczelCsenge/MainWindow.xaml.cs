@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.IO;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,9 +17,13 @@ namespace BingoGUI_PanczelCsenge
     /// </summary>
     public partial class MainWindow : Window
     {
+        TextBox[,] mezok = new TextBox[5, 5];
+
         public MainWindow()
         {
             InitializeComponent();
         }
+
+       
     }
 }
