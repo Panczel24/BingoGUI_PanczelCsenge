@@ -6,5 +6,26 @@
         xmlns:local="clr-namespace:BingoGUI_PanczelCsenge"
         mc:Ignorable="d"
         Title="MainWindow" Height="250" Width="150">
-    
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" Margin="10">
+
+            <Button Name="btnGeneral"
+                    Content="Kártya generálása"
+                    Click="btnGeneral_Click"
+                    Margin="5"/>
+
+            <Grid Name="gridKartya"
+                  Margin="5"/>
+
+            <TextBox Name="txtFajlNev"
+                     Text="bingo.txt"
+                     Margin="5"/>
+
+            <Button Name="btnMentes"
+                    Content="Mentés"
+                    Click="btnMentes_Click"
+                    Margin="5"/>
+
+        </StackPanel>
+    </Grid>
 </Window>
